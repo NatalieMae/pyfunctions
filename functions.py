@@ -7,7 +7,14 @@ def pack():
 hello()
 pack()
 
-def eat_lunch(food_list):
-    print([0 <= 100])
+def eat_lunch(*food_list):
+    for i in food_list:
+        print(i)
+    if food_list == "Banana's":
+        print("First I eat " + food_list[0])
+    elif food_list == "Ham Sandwich":
+        print("Next I eat " + food_list[1])
+    else: 
+        return ("My lunchbox is empty!")
 
-eat_lunch("food_list")
+eat_lunch([])
