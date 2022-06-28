@@ -14,3 +14,5 @@ def rev_string(x):
 my_text = rev_string("How many times can you write HannaH backwards? ")
 print(my_text)
 
+def num_within():
+    return range(1-5)
