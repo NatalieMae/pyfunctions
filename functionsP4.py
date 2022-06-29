@@ -21,3 +21,24 @@ print(num_within(3,2,4))
 print(num_within(3,1,3))
 print(num_within(10,2,5))
 
+triangle = [[1], [1,1]]
+def pascal(n):
+	if n < 1:
+            print("Error You Failed or invalid number of rows!")
+
+
+pascal(1)
+'''
+output:
+1
+'''
+
+pascal(5)
+'''
+output:
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+'''                                                              
