@@ -14,5 +14,9 @@ def rev_string(x):
 my_text = rev_string("How many times can you write HannaH backwards? ")
 print(my_text)
 
-def num_within():
-    return range(1-5)
+def num_within(num1, num2, num3):
+    
+    a = range(3, 2, 4)
+    print("The median number is: ", + "" )
+
+num_within(num1 = "3", num2 = "2", num3 = "4")
